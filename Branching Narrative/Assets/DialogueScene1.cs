@@ -57,10 +57,40 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
         }
-       else if (primeInt ==3){
+        else if (primeInt == 3){
+                Char1name.text = "Phone";
+                Char1speech.text = "Ring--Ring--";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+        else if (primeInt == 4){
+                Char1name.text = "Mom";
+                Char1speech.text = "Honey, I cut some sweet fruit for you, if you want some.";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+        else if (primeInt == 5){
+                Char1name.text = "You";
+                Char1speech.text = "Thanks mom! Btw I’m meeting my bf for lunch later.";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+        else if (primeInt == 6){
+                Char1name.text = "Mom";
+                Char1speech.text = "Good, you're finally getting some fresh air!";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+        else if (primeInt == 7){
+                Char1name.text = "You";
+                Char1speech.text = "HA HA very funny.";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+       else if (primeInt ==8){
                 ArtChar1.SetActive(true);
                 Char1name.text = "Narrator";
-                Char1speech.text = "So you decide to make some breakfast. Do you eat the fruit your mom bought you or make a peanut butter sandwich?";
+                Char1speech.text = "So you decide to make some breakfast. Do you eat the fruit your mom bought you or eat the  4 day old turkey pie?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 //gameHandler.AddPlayerStat(1);
@@ -70,15 +100,21 @@ public void talking(){         // main story function. Players hit next to progr
                 Choice1a.SetActive(true); // function Choice1aFunct()
                 Choice1b.SetActive(true); // function Choice1bFunct()
         }
-       else if (primeInt == 4){
-                Char1name.text = "NARRATOR";
+       else if (primeInt == 9){
+                Char1name.text = "Narrator";
+                Char1speech.text = "You eat the turkey pie, at least it's not the worst thing for you.";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+       else if (primeInt == 10){
+                Char1name.text = "Narrator";
                 Char1speech.text = "Well, that ate up the morning. Guess I'll go see Christoff.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
-       else if (primeInt == 5){
-                Char1name.text = "NARRATOR";
-                Char1speech.text = "Well, that ate up the morning. Guess I'll go see Christoff.";
+       else if (primeInt ==11){
+                Char1name.text = "Narrator";
+                Char1speech.text = "After hanging around your apartment, You realize it's noon. You leave for lunch.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
@@ -86,21 +122,9 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
         }
-       else if (primeInt == 6){
-                Char1name.text = "Jeda";
-                Char1speech.text = "I am searching for a fugitive. Ragu Fahn.";
-                Char2name.text = "";
-                Char2speech.text = "";
-        }
-       else if (primeInt ==7){
+       else if (primeInt == 12){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Why do you think I know anything?";
-        }
-       else if (primeInt == 8){
-                Char1name.text = "Jeda";
-                Char1speech.text = "Do not play the stupid. You will take me to him.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
@@ -145,24 +169,24 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
-                Char1name.text = "NARRATOR";
-                Char1speech.text = "Yum -- that was a lot of J with that PB!";
+                Char1name.text = "You";
+                Char1speech.text = "Yum-- that was a lot of turkey with that pie!";
                 Char2name.text = "";
                 Char2speech.text = "";
-                primeInt = 3;
+                primeInt = 8;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                Char1name.text = "NARRATOR";
-                Char1speech.text = "Yeah, probably a good idea to satrt with soem fruit.";
+                Char1name.text = "You";
+                Char1speech.text = "Yeah, probably a good idea to satrt with some fruit.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 3;
                 Choice1a.SetActive(false);
-                Choice1b.SetActive(false);
+                Choice1b.SetActive(true);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
