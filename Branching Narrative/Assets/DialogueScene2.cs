@@ -104,7 +104,7 @@ public class DialogueScene2 : MonoBehaviour
         }
         else if (primeInt == 8)
         {
-            Char1name.text = "Narrator";
+            Char1name.text = "You";
             Char1speech.text = "It’s nothing. This is what we decided to eat, and I know you like pizza. I don’t want to change it";
             Char2name.text = "Boyfriend";
             Char2speech.text = "How about salad?";
