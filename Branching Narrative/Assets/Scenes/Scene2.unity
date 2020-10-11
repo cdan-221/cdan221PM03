@@ -515,7 +515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.33333334, g: 0.26666668, b: 0.4, a: 1}
+  m_Color: {r: 0.26666668, g: 0, b: 0.34901962, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5188679, g: 0.17866677, b: 0.31960738, a: 1}
+  m_Color: {r: 0.26666668, g: 0, b: 0.34901962, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -657,8 +657,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -262, y: -287}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchoredPosition: {x: -295, y: -288}
+  m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435156266
 MonoBehaviour:
@@ -879,7 +879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6567283, g: 0.8867924, b: 0.8801033, a: 0.78431374}
+  m_Color: {r: 0.92941177, g: 0.9411765, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1166,7 +1166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6567283, g: 0.8867924, b: 0.8801033, a: 0.78431374}
+  m_Color: {r: 0.92941177, g: 0.9411765, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1333,7 +1333,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: pizza
+  m_Text: "Nah, I\u2019d rather have pizza"
 --- !u!222 &1302475235
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1392,7 +1392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.33333334, g: 0.26666668, b: 0.4, a: 1}
+  m_Color: {r: 0.26666668, g: 0, b: 0.34901962, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1603,8 +1603,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 59, y: -288}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchoredPosition: {x: 86.5, y: -288}
+  m_SizeDelta: {x: 361.0918, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597855364
 MonoBehaviour:
@@ -1974,7 +1974,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: salad
+  m_Text: Sure, I like salad
 --- !u!222 &1744731723
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2033,7 +2033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5188679, g: 0.17866677, b: 0.31960738, a: 1}
+  m_Color: {r: 0.26666668, g: 0, b: 0.34901962, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:

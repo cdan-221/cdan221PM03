@@ -98,7 +98,7 @@ public class DialogueScene2 : MonoBehaviour
         else if (primeInt == 7)
         {
             Char1name.text = "Narrator";
-            Char1speech.text = "But you haven't eaten pizza for a while...your boyfriend notices you spacing out.";
+            Char1speech.text = "But you haven't eaten pizza for two days...your boyfriend notices you spacing out.";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -141,7 +141,7 @@ public class DialogueScene2 : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Christoff";
-            Char2speech.text = "Are you joking?!";
+            Char2speech.text = "Kale all around!";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
@@ -172,16 +172,30 @@ public class DialogueScene2 : MonoBehaviour
         else if (primeInt == 200)
         {
             Char1name.text = "You";
-            Char1speech.text = "What are you saying!";
+            Char1speech.text = "I am really craving some pizza.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 201)
         {
-            Char1name.text = "YOU";
-            Char1speech.text = "You know I like pizza";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "Really? Didn’t we get pizza two days ago?";
+        }
+         else if (primeInt == 202)
+        {
+            Char1name.text = "You";
+            Char1speech.text = "Mmmmmmmm… zzzzzzzaaaaaaaaa….";
             Char2name.text = "";
             Char2speech.text = "";
+        }
+        else if (primeInt == 203)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "OK. Pizza it is.";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);

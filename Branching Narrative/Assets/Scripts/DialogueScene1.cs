@@ -122,7 +122,23 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
         }
-       else if (primeInt == 12){
+        else if (primeInt == 12){
+                Char1name.text = "Narrator";
+                Char1speech.text = "You eat the fruit. Your mind feels at ease and your body thanks you.";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+       else if (primeInt ==13){
+                Char1name.text = "You";
+                Char1speech.text = "Well, that ate up the morning. Guess I’ll go see Christoff.";
+                Char2name.text = "";
+                Char2speech.text = "";
+                // Turn off "Next" button, turn on "Choice" buttons
+                nextButton.SetActive(false);
+                allowSpace = false;
+                NextScene1Button.SetActive(true);
+        }
+       else if (primeInt == 15){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -181,10 +197,10 @@ public void talking(){         // main story function. Players hit next to progr
         }
         public void Choice1bFunct(){
                 Char1name.text = "You";
-                Char1speech.text = "Yeah, probably a good idea to satrt with some fruit.";
+                Char1speech.text = "Yeah, probably a good idea to start with some fruit.";
                 Char2name.text = "";
                 Char2speech.text = "";
-                primeInt = 9;
+                primeInt = 11;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
