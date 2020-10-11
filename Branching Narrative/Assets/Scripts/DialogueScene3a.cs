@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class DialogueScene3 : MonoBehaviour {
+public class DialogueScene3a : MonoBehaviour {
         public int primeInt = 1; // This integer drives game progress!
         public Text Char1name;
         public Text Char1speech;

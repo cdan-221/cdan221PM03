@@ -203,7 +203,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1247667309}
+      - m_Target: {fileID: 0}
         m_MethodName: SceneChange2a
         m_Mode: 1
         m_Arguments:
@@ -641,7 +641,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1247667309}
+      - m_Target: {fileID: 0}
         m_MethodName: Choice1bFunct
         m_Mode: 1
         m_Arguments:
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1247667309}
+      - m_Target: {fileID: 0}
         m_MethodName: Choice1aFunct
         m_Mode: 1
         m_Arguments:
@@ -1319,7 +1319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1247667304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3df754721f944ab3aed8142a70d11c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 43d46c5d3e570b945838c0a678217997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   primeInt: 1
@@ -1575,7 +1575,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1247667309}
+      - m_Target: {fileID: 0}
         m_MethodName: talking
         m_Mode: 1
         m_Arguments:
@@ -1804,7 +1804,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0af17e532f1524626895ff782c4ab454, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 91d54c8113fe2014aa2b8ac186445a89, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2001,7 +2001,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1247667309}
+      - m_Target: {fileID: 0}
         m_MethodName: SceneChange2b
         m_Mode: 1
         m_Arguments:

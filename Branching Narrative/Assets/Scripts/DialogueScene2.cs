@@ -83,7 +83,7 @@ public class DialogueScene2 : MonoBehaviour
         else if (primeInt == 5)
         {
             Char1name.text = "Narrator";
-            Char1speech.text = "You start having second thoughts about your choice.";
+            Char1speech.text = "You would feel guilty later if you ate pizza again today.";
             Char2name.text = "";
             Char2speech.text = "";
             //gameHandler.AddPlayerStat(1);
@@ -131,17 +131,39 @@ public class DialogueScene2 : MonoBehaviour
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
-            Char1name.text = "Christoff";
-            Char1speech.text = "Salad?!";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "Salad?!";
         }
         else if (primeInt == 101)
         {
-            Char1name.text = "Christoff";
-            Char1speech.text = "Are you joking?!";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "Are you joking?!";
+            nextButton.SetActive(false);
+            allowSpace = false;
+            NextScene1Button.SetActive(true);
+        }
+
+        else if (primeInt == 102)
+        {
+            Char1name.text = "YOU";
+            Char1speech.text = "Yeah, that's what I am in the mood for.";
             Char2name.text = "";
             Char2speech.text = "";
+            nextButton.SetActive(false);
+            allowSpace = false;
+            NextScene1Button.SetActive(true);
+        }
+
+        else if (primeInt == 103)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Chritoff";
+            Char2speech.text = "Well, if that's what you really want...";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
@@ -156,10 +178,10 @@ public class DialogueScene2 : MonoBehaviour
         }
         else if (primeInt == 201)
         {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "You";
-            Char2speech.text = "You know I like pizza.";
+            Char1name.text = "YOU";
+            Char1speech.text = "You know I like pizza";
+            Char2name.text = "";
+            Char2speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
@@ -172,7 +194,7 @@ public class DialogueScene2 : MonoBehaviour
         Char1name.text = "";
         Char1speech.text = "";
         Char2name.text = "You";
-        Char2speech.text = "How about salad?";
+        Char2speech.text = "Yeah, Salad would be fine";
         primeInt = 99;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -194,10 +216,10 @@ public class DialogueScene2 : MonoBehaviour
 
     public void SceneChange2a()
     {
-        SceneManager.LoadScene("Scene2a");
+        SceneManager.LoadScene("Scene3b");
     }
     public void SceneChange2b()
     {
-        SceneManager.LoadScene("Scene2b");
+        SceneManager.LoadScene("Scene3a");
     }
 }
