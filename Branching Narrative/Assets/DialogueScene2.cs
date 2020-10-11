@@ -69,7 +69,7 @@ public class DialogueScene2 : MonoBehaviour
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Boyfriend";
+            Char2name.text = "Christoff";
             Char2speech.text = "Hey babe, I guess you are hungry, lets go have some pizza.";
             //gameHandler.AddPlayerStat(1);
         }
@@ -98,15 +98,29 @@ public class DialogueScene2 : MonoBehaviour
         else if (primeInt == 7)
         {
             Char1name.text = "Narrator";
-            Char1speech.text = "But you haven't eaten pizza for a while...our boyfriend notices you spacing out.";
-            Char2name.text = "Boyfriend";
-            Char2speech.text = "What’s wrong, babe? You don't want pizza? We could always have something else";
+            Char1speech.text = "But you haven't eaten pizza for a while...your boyfriend notices you spacing out.";
+            Char2name.text = "";
+            Char2speech.text = "";
         }
         else if (primeInt == 8)
         {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "What’s wrong, babe? You don't want pizza? We could always have something else";
+        }
+        else if (primeInt == 9)
+        {
             Char1name.text = "You";
             Char1speech.text = "It’s nothing. This is what we decided to eat, and I know you like pizza. I don’t want to change it";
-            Char2name.text = "Boyfriend";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 10)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
             Char2speech.text = "How about salad?";
             // Turn off "Next" button, turn on "Choice" buttons
             nextButton.SetActive(false);
@@ -117,15 +131,15 @@ public class DialogueScene2 : MonoBehaviour
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "Then you are no use to me, and must be silenced.";
+            Char1name.text = "Christoff";
+            Char1speech.text = "Salad?!";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 101)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "Come back here! Do not think you can hide from me!";
+            Char1name.text = "Christoff";
+            Char1speech.text = "Are you joking?!";
             Char2name.text = "";
             Char2speech.text = "";
             nextButton.SetActive(false);
@@ -135,8 +149,8 @@ public class DialogueScene2 : MonoBehaviour
 
         else if (primeInt == 200)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "Do not think you can fool me, human. Where will we find him?";
+            Char1name.text = "You";
+            Char1speech.text = "What are you saying!";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -145,7 +159,7 @@ public class DialogueScene2 : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "You";
-            Char2speech.text = "Ragu hangs out in a rough part of town. I'll take you now.";
+            Char2speech.text = "You know I like pizza.";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
@@ -158,7 +172,7 @@ public class DialogueScene2 : MonoBehaviour
         Char1name.text = "";
         Char1speech.text = "";
         Char2name.text = "You";
-        Char2speech.text = "I don't know what you're talking about!";
+        Char2speech.text = "How about salad?";
         primeInt = 99;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -169,8 +183,8 @@ public class DialogueScene2 : MonoBehaviour
     {
         Char1name.text = "";
         Char1speech.text = "";
-        Char2name.text = "You";
-        Char2speech.text = "Sure, anything you want... just lay off the club.";
+        Char2name.text = "Christoff";
+        Char2speech.text = "I know you’re trying to diet. But, if it’s ok with you...";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
