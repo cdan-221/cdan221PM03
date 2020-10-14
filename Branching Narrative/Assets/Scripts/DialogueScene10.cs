@@ -52,30 +52,35 @@ public void talking(){         // main story function. Players hit next to progr
         else if (primeInt == 2){
                ArtChar1.SetActive(true);
                 dialogue.SetActive(true);
-                Char1name.text = "Jeda";
-                Char1speech.text = "Wakey wakey, human.";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char1name.text = "Boyfriend";
+                Char1speech.text = "That was a great day!";
+                Char2name.text = "You";
+                Char2speech.text = "Ya it was, I had a lot of fun!";
         }
        else if (primeInt ==3){
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "Boyfriend";
+                Char1speech.text = "Should we end the day with dessert?";
                 Char2name.text = "You";
-                Char2speech.text = "Wuh..? What happended?";
+                Char2speech.text = "Oh that sounds great!";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
-                Char1name.text = "Jeda";
-                Char1speech.text = "I know I did not hit you that hard.";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char1name.text = "Boyfriend";
+                Char1speech.text = "Oh look, you have cookies! That seems like a great dessert to me!";
+                Char2name.text = "You";
+                Char2speech.text = "Oh, I don't know if I should end the day with a treat? Or keep up with my diet and end strong...";
         }
        else if (primeInt == 5){
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "Boyfriend";
+                Char1speech.text = "That's up to you babe, I'm going to eat this cookie though.";
                 Char2name.text = "You";
-                Char2speech.text = "Hit me? Why?";
-                //gameHandler.AddPlayerStat(1);
+                Char2speech.text = "I'm either going to have a cookie with you or this delicious fruit...";
+            //gameHandler.AddPlayerStat(1);
+            // Turn off "Next" button, turn on "Choice" buttons
+            nextButton.SetActive(false);
+            allowSpace = false;
+            Choice1a.SetActive(true); // function Choice1aFunct()
+            Choice1b.SetActive(true); // function Choice1bFunct()
         }
        else if (primeInt == 6){
                 Char1name.text = "Jeda";

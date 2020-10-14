@@ -264,7 +264,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Eat my BF's flesh
+  m_Text: cookie
 --- !u!222 &224600170
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do not cannibalize
+  m_Text: fruit
 --- !u!222 &859245610
 CanvasRenderer:
   m_ObjectHideFlags: 0
