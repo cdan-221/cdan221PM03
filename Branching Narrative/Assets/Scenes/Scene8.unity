@@ -342,7 +342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go to stop and shop
+  m_Text: Go back to your house
 --- !u!222 &237119603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1636,7 +1636,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go to TGIF Fridays
+  m_Text: Go back to your house
 --- !u!222 &1450786732
 CanvasRenderer:
   m_ObjectHideFlags: 0

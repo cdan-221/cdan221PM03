@@ -53,7 +53,7 @@ public void talking(){         // main story function. Players hit next to progr
                ArtChar1.SetActive(true);
                 dialogue.SetActive(true);
                 Char1name.text = "Narrator";
-                Char1speech.text = "You talk with your bf if you wanna either go cook a healthy dinner or go out to eat";
+                Char1speech.text = "After arriving Stop and Shop, you plan to buy some vegetables and then go home.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -61,12 +61,12 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Christoff";
-                Char2speech.text = "What do you feel like eating for dinner tonight?";
+                Char2speech.text = "Lets start on the bakery side!";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
                 Char1name.text = "You";
-                Char1speech.text = " I don't know?";
+                Char1speech.text = "NO, theirs to many deserts on the side.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -74,12 +74,12 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Christoff";
-                Char2speech.text = "what are you in the mood for?";
+                Char2speech.text = "That was the point. Lol";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
                 Char1name.text = "You";
-                Char1speech.text = "…looking at your phone…";
+                Char1speech.text = "Lets start on the dairy side, so I could get some yogurt for my late night snack.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -87,43 +87,47 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Christoff";
-                Char2speech.text = "Maybe Chinese food?";
+                Char2speech.text = "Let's try to make this quick because I’m hungry.";
         }
         else if (primeInt ==8){
                 Char1name.text = "You";
-                Char1speech.text = "hhmmmm…";
+                Char1speech.text = "Okay, Okay";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
         else if (primeInt ==9){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Christoff";
-                Char2speech.text = "Mcdonalds?";
-        }
-        else if (primeInt ==10){
                 Char1name.text = "You";
-                Char1speech.text = "Anything, but mcdonalds please.";
+                Char1speech.text = "Let me grab some lettuce, tomatoes, cheese, and dressing to make a healthy salad for myself and what did you grab?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
-       else if (primeInt == 11){
+        else if (primeInt ==10){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Christoff";
-                Char2speech.text = "Do you feel like going to stop and shop and getting healthy food? or going to TGIF Fridays, even though it's not friday? LOL";
-                // Turn off "Next" button, turn on "Choice" buttons
+                Char2speech.text = "I grabbed some hotdogs because you know I love hotdogs. Lol";
+        }
+       else if (primeInt == 11){
+                Char1name.text = "You";
+                Char1speech.text = "Give me money, so I could go pay for all this.";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+        else if (primeInt == 12){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Christoff";
+                Char2speech.text = " IT HURTS..., here you go. I’ll go get the car. ";
                 nextButton.SetActive(false);
                 allowSpace = false;
-                Choice1a.SetActive(true); // function Choice1aFunct()
-                Choice1b.SetActive(true); // function Choice1bFunct()
+                NextScene1Button.SetActive(true);
         }
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Christoff";
-                Char2speech.text = "OK";
+                Char2name.text = "";
+                Char2speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -138,14 +142,14 @@ public void talking(){         // main story function. Players hit next to progr
        else if (primeInt == 200){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Christoff";
-                Char2speech.text = "hmm";               
+                Char2name.text = "";
+                Char2speech.text = "";               
         }
        else if (primeInt == 201){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Christoff";
-                Char2speech.text = " I guess I’ll just get a cup of water then. Lol";
+                Char2name.text = "";
+                Char2speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene2Button.SetActive(true);
@@ -154,8 +158,8 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
-                Char1name.text = "You";
-                Char1speech.text = "Lets go to stop and shop, so I could save money and eat something healthy.";
+                Char1name.text = "";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 99;
@@ -165,8 +169,8 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                Char1name.text = "You";
-                Char1speech.text = "Nice idea! I haven't had their steak in while! And their lava cake ice cream. YUM";
+                Char1name.text = "";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 199;
