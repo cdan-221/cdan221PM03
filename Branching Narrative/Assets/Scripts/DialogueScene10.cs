@@ -52,29 +52,56 @@ public void talking(){         // main story function. Players hit next to progr
         else if (primeInt == 2){
                ArtChar1.SetActive(true);
                 dialogue.SetActive(true);
-                Char1name.text = "Boyfriend";
-                Char1speech.text = "That was a great day!";
-                Char2name.text = "You";
-                Char2speech.text = "Ya it was, I had a lot of fun!";
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Christoff";
+                Char2speech.text = "That was a great day!";
         }
-       else if (primeInt ==3){
-                Char1name.text = "Boyfriend";
-                Char1speech.text = "Should we end the day with dessert?";
-                Char2name.text = "You";
-                Char2speech.text = "Oh that sounds great!";
+        else if (primeInt == 3){
+               ArtChar1.SetActive(true);
+                dialogue.SetActive(true);
+                Char1name.text = "You";
+                Char1speech.text = "Ya it was, I had a lot of fun!";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+       else if (primeInt ==4){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Christoff";
+                Char2speech.text = "Should we end the day with dessert?";
                 //gameHandler.AddPlayerStat(1);
         }
-       else if (primeInt == 4){
-                Char1name.text = "Boyfriend";
-                Char1speech.text = "Oh look, you have cookies! That seems like a great dessert to me!";
-                Char2name.text = "You";
-                Char2speech.text = "Oh, I don't know if I should end the day with a treat? Or keep up with my diet and end strong...";
+        else if (primeInt ==5){
+                Char1name.text = "You";
+                Char1speech.text = "Oh that sounds great!";
+                Char2name.text = "";
+                Char2speech.text = "";
+                //gameHandler.AddPlayerStat(1);
+        }
+       else if (primeInt == 6){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Christoff";
+                Char2speech.text = "Oh look, you have cookies! That seems like a great dessert to me!";
+        }
+         else if (primeInt == 7){
+                Char1name.text = "You";
+                Char1speech.text = "Oh, I don't know if I should end the day with a treat? Or keep up with my diet and end strong...";
+                Char2name.text = "";
+                Char2speech.text = "";
+        }
+         else if (primeInt == 8){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Christoff";
+                Char2speech.text = "That's up to you babe, I'm going to eat this cookie though.";
         }
        else if (primeInt == 5){
-                Char1name.text = "Boyfriend";
-                Char1speech.text = "That's up to you babe, I'm going to eat this cookie though.";
-                Char2name.text = "You";
-                Char2speech.text = "I'm either going to have a cookie with you or this delicious fruit...";
+                Char1name.text = "You";
+                Char1speech.text = "I'm either going to have a cookie with you or this delicious fruit...";
+                Char2name.text = "";
+                Char2speech.text = "";
             //gameHandler.AddPlayerStat(1);
             // Turn off "Next" button, turn on "Choice" buttons
             nextButton.SetActive(false);
@@ -164,9 +191,9 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange2a(){
-               SceneManager.LoadScene("Scene2a");
+               SceneManager.LoadScene("Sceneend_win");
         }
         public void SceneChange2b(){
-                SceneManager.LoadScene("Scene2b");
+                SceneManager.LoadScene("Sceneend_win");
         }
 }
