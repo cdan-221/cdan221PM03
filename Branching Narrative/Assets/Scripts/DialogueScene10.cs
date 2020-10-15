@@ -97,7 +97,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "Christoff";
                 Char2speech.text = "That's up to you babe, I'm going to eat this cookie though.";
         }
-       else if (primeInt == 5){
+       else if (primeInt == 10){
                 Char1name.text = "You";
                 Char1speech.text = "I'm either going to have a cookie with you or this delicious fruit...";
                 Char2name.text = "";
@@ -134,14 +134,14 @@ public void talking(){         // main story function. Players hit next to progr
         }
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
-                Char1name.text = "Jeda";
-                Char1speech.text = "Then you are no use to me, and must be silenced.";
-                Char2name.text = "";
-                Char2speech.text = "";     
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Christoff";
+                Char2speech.text = "ya it’s probably because instead of treating yourself to one cookie you ate 10…";     
         }
        else if (primeInt == 101){
-                Char1name.text = "Jeda";
-                Char1speech.text = "Come back here! Do not think you can hide from me!";
+                Char1name.text = "You";
+                Char1speech.text = "i think i'm going to be sick…";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(false);
@@ -150,10 +150,13 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
        else if (primeInt == 200){
-                Char1name.text = "Jeda";
-                Char1speech.text = "Do not think you can fool me, human. Where will we find him?";
+                Char1name.text = "You";
+                Char1speech.text = "ya it was hard but im happy i stuck with it through the end!";
                 Char2name.text = "";
-                Char2speech.text = "";               
+                Char2speech.text = "";
+                nextButton.SetActive(false);
+                allowSpace = false;
+                NextScene2Button.SetActive(true);
         }
        else if (primeInt == 201){
                 Char1name.text = "";
@@ -191,9 +194,9 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange2a(){
-               SceneManager.LoadScene("Sceneend_win");
+               SceneManager.LoadScene("end_lose");
         }
         public void SceneChange2b(){
-                SceneManager.LoadScene("Sceneend_win");
+                SceneManager.LoadScene("end_win");
         }
 }

@@ -52,17 +52,22 @@ public void talking(){         // main story function. Players hit next to progr
         else if (primeInt == 2){
                ArtChar1.SetActive(true);
                 dialogue.SetActive(true);
-                Char1name.text = "Jeda";
-                Char1speech.text = "Wakey wakey, human.";
+                Char1name.text = "Narrator";
+                Char1speech.text = "You walk across the street to the grocery store. Crowds of people are in the aisles and there’s probably some kid making a scene somewhere.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt ==3){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Wuh..? What happended?";
+                Char1name.text = "Narrator";
+                Char1speech.text = "You turn a corner and see a 12 pack of Coke on sale. Do you buy it?";
+                Char2name.text = "";
+                Char2speech.text = "";
                 //gameHandler.AddPlayerStat(1);
+                // Turn off "Next" button, turn on "Choice" buttons
+                nextButton.SetActive(false);
+                allowSpace = false;
+                Choice1a.SetActive(true); // function Choice1aFunct()
+                Choice1b.SetActive(true); // function Choice1bFunct()
         }
        else if (primeInt == 4){
                 Char1name.text = "Jeda";
@@ -118,10 +123,13 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
        else if (primeInt == 200){
-                Char1name.text = "Jeda";
-                Char1speech.text = "Do not think you can fool me, human. Where will we find him?";
+                Char1name.text = "Narrator";
+                Char1speech.text = "You make a healthy vegan dinner together and enjoy each other’s company some more.";
                 Char2name.text = "";
-                Char2speech.text = "";               
+                Char2speech.text = "";
+                 nextButton.SetActive(false);
+                allowSpace = false;
+                NextScene2Button.SetActive(true);
         }
        else if (primeInt == 201){
                 Char1name.text = "";
@@ -138,19 +146,22 @@ public void talking(){         // main story function. Players hit next to progr
         public void Choice1aFunct(){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "I don't know what you're talking about!";
+                Char2name.text = "Christoff";
+                Char2speech.text = "Babe, I think you should go to that late night yoga class to get your mind off your impulses.";
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
+                nextButton.SetActive(false);
+                allowSpace = false;
+                NextScene1Button.SetActive(true);
         }
         public void Choice1bFunct(){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Sure, anything you want... just lay off the club.";
+                Char1name.text = "Narrator";
+                Char1speech.text = "You grab some waters instead and make your way to the express lane. You and your boyfriend have a fun ride home talking about the movie and making fun of people in other cars.";
+                Char2name.text = "";
+                Char2speech.text = "";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -159,7 +170,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange2a(){
-               SceneManager.LoadScene("Sceneend_lose");
+               SceneManager.LoadScene("end_lose");
         }
         public void SceneChange2b(){
                 SceneManager.LoadScene("Scene7");

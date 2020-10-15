@@ -154,8 +154,11 @@ void Update(){         // use spacebar as Next button
         }
     }
 
-         void SceneChange1a(){
+         public void SceneChange1a(){
                 SceneManager.LoadScene("Scene4");}
+                public void SceneChange2b(){
+                SceneManager.LoadScene("Scene4");
+        }
 }
 
 

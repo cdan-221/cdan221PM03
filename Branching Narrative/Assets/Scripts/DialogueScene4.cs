@@ -54,32 +54,68 @@ public void talking(){         // main story function. Players hit next to progr
         {
             ArtChar1.SetActive(true);
             dialogue.SetActive(true);
-            Char1name.text = "Boyfriend";
-            Char1speech.text = "Well that was great? Damn, I am seriously craving some caffeine right now. You wanna grab coffee?";
+            Char1name.text = "Narrator";
+            Char1speech.text = "After 15 minutes walk you and Christoff finally found a coffee shop on the corner of the street.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 3)
         {
-            Char1name.text = "Boyfriend";
-            Char1speech.text = "Babe, are you listening?";
-            Char2name.text = "You";
-            Char2speech.text = "Ohh, yes of course...Christoff you see those cakes? They look delicious...";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "Well that was great? Damn, I am seriously craving some caffeine right now.” You wanna grab coffee?";
             //gameHandler.AddPlayerStat(1);
         }
         else if (primeInt == 4)
         {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "You";
-            Char2speech.text = "I know we just finished our lunch, but...";
+            Char1name.text = "Narrator";
+            Char1speech.text = "You are attracted by the cakes in the dessert cabinet. So you didn’t hear what Christoff says.";
+            Char2name.text = "";
+            Char2speech.text = "";
+            //gameHandler.AddPlayerStat(1);
         }
         else if (primeInt == 5)
         {
-            Char1name.text = "Boyfriend";
-            Char1speech.text = "Sounds like we're not leaving without having a piece of cake. Again, it's your day today babe.";
-            Char2name.text = "Coffee";
-            Char2speech.text = "Hi, what can I get for you today?";
+            Char1name.text = "Narrator";
+            Char1speech.text = "Your boyfriend notices you spacing out again.";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 6)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "Babe, are you listening?";
+        }
+        else if (primeInt == 7)
+        {
+            Char1name.text = "You";
+            Char1speech.text = "Ohh, yes of course, coffee…...Christoff you see those cakes? They look delicious…";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 8)
+        {
+            Char1name.text = "You";
+            Char1speech.text = "I know we just finished our lunch, but…";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 9)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "Sounds like we’re not leaving without having a piece of cake. Again, it’s your day today babe.";
+        }
+        else if (primeInt == 10)
+        {
+            Char1name.text = "Coffee Guy";
+            Char1speech.text = "Hi, what can I get for you today?";
+            Char2name.text = "";
+            Char2speech.text = "";
             //gameHandler.AddPlayerStat(1);
             // Turn off "Next" button, turn on "Choice" buttons
             nextButton.SetActive(false);
@@ -138,13 +174,55 @@ public void talking(){         // main story function. Players hit next to progr
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "Nice! I need to satisfy my coffee demons. Let’s go!";
         }
         else if (primeInt == 201)
         {
+            Char1name.text = "Narrator";
+            Char1speech.text = "You both go to your favorite cafe. The smell of stressed out college kids on overpriced laptops and exposed brick walls emanates throughout the store.";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 202)
+        {
+            Char1name.text = "Narrator";
+            Char1speech.text = "You now have the energy of an unattended 13 year old boy. Your body may or may not also be vibrating uncontrollably.";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+         else if (primeInt == 203)
+        {
+            Char1name.text = "Narrator";
+            Char1speech.text = "You both relax and get comfortable in the cafe. You feel safe with your boyfriend and would do anything to feel like this forever. As you sink further into the booth seat, your boyfriend asks…";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 204)
+        {
             Char1name.text = "";
             Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "Hey! Have you seen Revengers: Endless Tussle yet? That movie was the best of the whole series!";
+        }
+        else if (primeInt == 205)
+        {
+            Char1name.text = "You";
+            Char1speech.text = "No, I haven’t you know I don’t care for movies like that.";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 206)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Christoff";
+            Char2speech.text = "C’mon! I can catch you up on all the lore in the car. The movie is only 4 hours!";
+        }
+        else if (primeInt == 207)
+        {
+            Char1name.text = "Narrator";
+            Char1speech.text = "You decide to go to the movies. You think it’s good your boyfriend is passionate about something. Even if it is watching Incredible Fella fight Regular Raccoon…again.";
             Char2name.text = "";
             Char2speech.text = "";
             nextButton.SetActive(false);
@@ -166,8 +244,8 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "You";
+                Char1speech.text = "I’m down, and we just have lunch so let's grab coffee and go somewhere else!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 199;
@@ -178,7 +256,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange2a(){
-               SceneManager.LoadScene("Sceneend_lose");
+               SceneManager.LoadScene("end_lose");
         }
         public void SceneChange2b(){
                 SceneManager.LoadScene("Scene5");

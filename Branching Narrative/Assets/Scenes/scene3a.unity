@@ -204,7 +204,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1247667309}
-        m_MethodName: SceneChange2a
+        m_MethodName: SceneChange1a
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -472,7 +472,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go to Next Scene 2
+  m_Text: Go to coffee shop
 --- !u!222 &225166578
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1910,7 +1910,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go to Next scene 1
+  m_Text: Go to coffee shop
 --- !u!222 &2059993001
 CanvasRenderer:
   m_ObjectHideFlags: 0

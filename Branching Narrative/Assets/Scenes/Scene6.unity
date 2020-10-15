@@ -264,7 +264,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Eat my BF's flesh
+  m_Text: YES!
 --- !u!222 &224600170
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -342,7 +342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Live thin and miserable
+  m_Text: Go to Yoga class
 --- !u!222 &237119603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do not cannibalize
+  m_Text: I'd rather have water
 --- !u!222 &859245610
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1549,7 +1549,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1414054127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4398e700e790c14cb203aebee5b1ba1, type: 3}
+  m_Script: {fileID: 11500000, guid: aaaa260892f20b14f9c94f1407e83a5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   primeInt: 1
@@ -1636,7 +1636,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Face the consequences
+  m_Text: Go back to car
 --- !u!222 &1450786732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2083,8 +2083,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1280, y: 720}
+  m_AnchoredPosition: {x: 241, y: 91}
+  m_SizeDelta: {x: 396.6261, y: 423.53784}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1949219400
 MonoBehaviour:
@@ -2105,7 +2105,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 397027dbb62d7304391a9af73fa769c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e0a73d87e4e6c40f690fff2de5d4976b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
