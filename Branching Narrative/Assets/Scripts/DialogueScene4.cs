@@ -118,8 +118,8 @@ public void talking(){         // main story function. Players hit next to progr
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
-            Char1name.text = "";
-            Char1speech.text = "";
+            Char1name.text = "Boyfriend";
+            Char1speech.text = "Aren't you on a diet? I think..umm.. maybe you should go to your yoga class today?";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -136,8 +136,8 @@ public void talking(){         // main story function. Players hit next to progr
 
         else if (primeInt == 200)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "Do not think you can fool me, human. Where will we find him?";
+            Char1name.text = "";
+            Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -168,8 +168,8 @@ public void talking(){         // main story function. Players hit next to progr
         public void Choice1bFunct(){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Sure, anything you want... just lay off the club.";
+                Char2name.text = "";
+                Char2speech.text = "";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
