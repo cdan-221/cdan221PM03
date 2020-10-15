@@ -144,7 +144,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "You";
-                Char2speech.text = "I don't know what you're talking about!";
+                Char2speech.text = "oh I do not feel very good";
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -152,10 +152,10 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Sure, anything you want... just lay off the club.";
+                Char1name.text = "Boyfriend";
+                Char1speech.text = "I'm so proud of you keeping up with your diet I'm sure you feel great!!";
+                Char2name.text = "";
+                Char2speech.text = "";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
