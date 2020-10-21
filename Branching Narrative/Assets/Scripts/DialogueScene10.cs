@@ -56,6 +56,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "Christoff";
                 Char2speech.text = "That was a great day!";
+                Char3name.text = "";
+                Char3speech.text = "";
         }
         else if (primeInt == 3){
                ArtChar1.SetActive(true);
@@ -64,44 +66,58 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Ya it was, I had a lot of fun!";
                 Char2name.text = "";
                 Char2speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";  
         }
        else if (primeInt ==4){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Christoff";
                 Char2speech.text = "Should we end the day with dessert?";
-                //gameHandler.AddPlayerStat(1);
+                Char3name.text = "";
+                Char3speech.text = "";
+            //gameHandler.AddPlayerStat(1);
         }
         else if (primeInt ==5){
                 Char1name.text = "You";
                 Char1speech.text = "Oh that sounds great!";
                 Char2name.text = "";
                 Char2speech.text = "";
-                //gameHandler.AddPlayerStat(1);
+                Char3name.text = "";
+                Char3speech.text = "";
+            //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Christoff";
                 Char2speech.text = "Oh look, you have cookies! That seems like a great dessert to me!";
+                Char3name.text = "";
+                Char3speech.text = "";
         }
          else if (primeInt == 7){
                 Char1name.text = "You";
                 Char1speech.text = "Oh, I don't know if I should end the day with a treat? Or keep up with my diet and end strong...";
                 Char2name.text = "";
                 Char2speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";
         }
          else if (primeInt == 8){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Christoff";
                 Char2speech.text = "That's up to you babe, I'm going to eat this cookie though.";
+                Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt == 10){
                 Char1name.text = "You";
                 Char1speech.text = "I'm either going to have a cookie with you or this delicious fruit...";
                 Char2name.text = "";
                 Char2speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";
             //gameHandler.AddPlayerStat(1);
             // Turn off "Next" button, turn on "Choice" buttons
             nextButton.SetActive(false);
@@ -137,13 +153,17 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Christoff";
-                Char2speech.text = "ya it’s probably because instead of treating yourself to one cookie you ate 10…";     
+                Char2speech.text = "ya it’s probably because instead of treating yourself to one cookie you ate 10…";
+                Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt == 101){
                 Char1name.text = "You";
                 Char1speech.text = "i think i'm going to be sick…";
                 Char2name.text = "";
                 Char2speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -154,6 +174,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "ya it was hard but im happy i stuck with it through the end!";
                 Char2name.text = "";
                 Char2speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene2Button.SetActive(true);
