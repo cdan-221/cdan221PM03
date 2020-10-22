@@ -342,7 +342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Live thin and miserable
+  m_Text: Face the consequences
 --- !u!222 &237119603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -494,6 +494,84 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4412e2d422862834199bf160afe5198c, type: 3}
+--- !u!1 &561732660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561732661}
+  - component: {fileID: 561732662}
+  - component: {fileID: 561732663}
+  m_Layer: 5
+  m_Name: TextChar3Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561732661
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561732660}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1268564988}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -468.1, y: -90.5}
+  m_SizeDelta: {x: 279.70673, y: 52.27746}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &561732662
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561732660}
+  m_CullTransparentMesh: 0
+--- !u!114 &561732663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561732660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Char 3 name
 --- !u!1 &667685817
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,7 +810,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1268564988}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1158,7 +1236,7 @@ GameObject:
   - component: {fileID: 1236035373}
   - component: {fileID: 1236035372}
   m_Layer: 5
-  m_Name: ButtonSceneLose
+  m_Name: ButtonSceneWin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1308,6 +1386,7 @@ RectTransform:
   - {fileID: 146554037}
   - {fileID: 667685818}
   - {fileID: 1950138491}
+  - {fileID: 561732661}
   - {fileID: 854309540}
   - {fileID: 1942888813}
   - {fileID: 1734497650}
@@ -1558,8 +1637,8 @@ MonoBehaviour:
   Char1speech: {fileID: 854309542}
   Char2name: {fileID: 1950138493}
   Char2speech: {fileID: 1942888815}
-  Char3name: {fileID: 0}
-  Char3speech: {fileID: 0}
+  Char3name: {fileID: 561732663}
+  Char3speech: {fileID: 1734497651}
   dialogue: {fileID: 1268564987}
   ArtChar1: {fileID: 1949219398}
   ArtBG1: {fileID: 469409997}
@@ -1637,7 +1716,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Face the consequences
+  m_Text: Live thin and miserable
 --- !u!222 &1450786732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1806,7 +1885,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1268564988}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1826,7 +1905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1739943, g: 0.3207547, b: 0.2469057, a: 1}
+  m_Color: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1950,7 +2029,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1268564988}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2011,7 +2090,7 @@ GameObject:
   - component: {fileID: 1944304261}
   - component: {fileID: 1944304260}
   m_Layer: 5
-  m_Name: ButtonSceneWin
+  m_Name: ButtonSceneLose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2214,7 +2293,7 @@ GameObject:
   - component: {fileID: 1950138492}
   - component: {fileID: 1950138493}
   m_Layer: 5
-  m_Name: TextChar3Name
+  m_Name: TextChar2Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
